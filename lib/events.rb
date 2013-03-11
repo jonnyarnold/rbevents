@@ -21,6 +21,9 @@
 #   "Hello!"
 # end
 # example.activate # => "Hello!"
+#
+# == License
+# If you use this, let me know? jonny.arnold89@gmail.com. Thanks.
 module Events
 
     # An event that can be subscribed to,
