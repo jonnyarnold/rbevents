@@ -9,17 +9,18 @@ Example
 class EventsExample
   include Events
   event :activation
-
   def activate
-    values = @activation.fire
-    p values
+    return_values = @activation.fire
+    return_values
   end
 end
-
 example = EventsExample.new
 example.on_activation do
-  "Hello!"
+  "Hello"
 end
-example.activate # => "Hello!"
+example.on_activation do
+  "World!"
+end
+example.activate # => ["Hello", "World!"]
 ```
 Full documentation to follow!
