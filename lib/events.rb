@@ -6,24 +6,7 @@
 # Note that the command <tt>event :abc</tt> adds an alias, <tt>on_abc</tt>, for adding event callbacks
 #
 # == Example
-# class EventsExample
-#   include Events
-#   event :activation
-#
-#   def activate
-#     return_values = @activation.fire
-#     return_values
-#   end
-# end
-#
-# example = EventsExample.new
-# example.on_activation do
-#   "Hello"
-# end
-# example.on_activation do
-#   "World!"
-# end
-# example.activate # => ["Hello", "World!"]
+# See README
 #
 # == License
 # If you use this, let me know? jonny.arnold89@gmail.com. Thanks.
@@ -35,10 +18,6 @@ module Events
     class Event 
         # Gets the collection of callbacks subscribed to this event.
         attr_accessor :callbacks
-
-        # Gets the collection of return values after an event is fired.
-        # Cleared on every event firing
-        attr_accessor :return_values
 
         # Class initializer
         def initialize
