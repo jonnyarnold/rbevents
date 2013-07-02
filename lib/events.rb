@@ -12,6 +12,10 @@
 # If you use this, let me know? jonny.arnold89@gmail.com. Thanks.
 module Events
 
+    # Version number
+    # Uses Semantic Versioning: http://semver.org/
+    VERSION = '0.1.0'
+
     # An event that can be subscribed to,
     # and runs any subscribed callback when
     # it is fired.

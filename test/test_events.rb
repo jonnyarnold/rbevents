@@ -40,4 +40,13 @@ class EventDrivenTest < Test::Unit::TestCase
 		@test_object.on_test_event { puts "Hello" }
 		assert @test_object.test_event.callbacks.length == 1
 	end
+
+	def test_event_can_be_given_arguments
+		@test_object.on_test_event do |arg|
+			arg
+		end
+
+		results = @test_object.test_event.fire("abc")
+		assert results == ["abc"]
+	end
 end
