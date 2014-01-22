@@ -14,7 +14,7 @@ module Events
 
   # Version number
   # Uses Semantic Versioning: http://semver.org/
-  VERSION = '0.1.0'
+  VERSION = '1.0.0'
 
   # An event that can be subscribed to,
   # and runs any subscribed callback when
