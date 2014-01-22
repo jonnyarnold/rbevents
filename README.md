@@ -3,6 +3,8 @@ rbevents
 
 It's like Observable, but better.
 
+[![Code Climate](https://codeclimate.com/github/jonnyarnold/rbevents.png)](https://codeclimate.com/github/jonnyarnold/rbevents)
+
 Example
 =======
 ```ruby
@@ -37,4 +39,5 @@ end
 # Finally, we call a method which alerts the subscribers
 example.activate # => ["Hello", "World!"]
 ```
-Full documentation to follow!
+
+Anything else? Check the code.
