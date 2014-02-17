@@ -3,7 +3,7 @@ rbevents
 
 It's like Observable, but better.
 
-[![Code Climate](https://codeclimate.com/github/jonnyarnold/rbevents.png)](https://codeclimate.com/github/jonnyarnold/rbevents)
+[![Gem Version](https://badge.fury.io/rb/rbevents.png)](http://badge.fury.io/rb/rbevents) [![Code Climate](https://codeclimate.com/github/jonnyarnold/rbevents.png)](https://codeclimate.com/github/jonnyarnold/rbevents)
 
 Example
 =======
